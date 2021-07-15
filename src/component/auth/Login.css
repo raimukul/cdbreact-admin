@@ -1,0 +1,60 @@
+    .loginpage{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)      
+    }
+    .loginh2{
+        font-weight: 600;
+    }
+    .SignupSection{
+        background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
+    }
+
+    .card-bodyLogin {
+        padding: 0rem!important;
+    }
+    
+    .btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+    .btn-grad {
+       margin: 10px;
+       padding: 10px 40px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+     }
+
+     .btn-grad:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+     
+     .btn-gradL {background-image: linear-gradient(to right, #7474BF 0%, #348AC7  51%, #7474BF  100%)}
+     .btn-gradL {
+        margin: 10px;
+        padding: 10px 40px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        /* box-shadow: 0 0 20px #eee; */
+        border-radius: 10px;
+        display: block;
+      }
+
+      .btn-gradL:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
+    
